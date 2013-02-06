@@ -25,7 +25,7 @@ This code refers to a macro within CMFBibliographyAT.
 
 <div class="field"
      tal:condition="python:here.Subject()">
-  <label i18n:translate="view_label_keywords">Categories</label>
+     <label i18n:translate="view_label_subject">Categories</label>
   <div tal:content="python:', '.join(here.Subject())" />
 </div>
 

@@ -7,6 +7,8 @@
 """
 
 from zope.i18nmessageid import MessageFactory
+_ = MessageFactory('humboldt.cmfbibliographyat')
+
 from humboldt.cmfbibliographyat import config
 
 from Products.Archetypes import atapi

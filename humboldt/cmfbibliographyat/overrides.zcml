@@ -8,7 +8,7 @@
       name="bibliography_entry_view"
       permission="zope.Public"
       template="browser/bibliography_entry_view.pt"
-      layer="humboldt.theme.interfaces.IBrowserLayer"
+      layer="humboldt.cmfbibliographyat.interfaces.IBibLayer"
     />
 
 </configure>

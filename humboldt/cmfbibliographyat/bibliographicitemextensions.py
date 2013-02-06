@@ -7,8 +7,8 @@ from archetypes.schemaextender.interfaces import ISchemaExtender
 from archetypes.schemaextender.interfaces import IBrowserLayerAwareExtender
 from Products.Archetypes.public import TextField
 from Products.CMFBibliographyAT.interface import IBibliographicItem
-from humboldt.theme.interfaces import IBrowserLayer
-from humboldt.theme import _
+from humboldt.cmfbibliographyat.interfaces import IBibLayer
+from humboldt.cmfbibliographyat import _
 
 class BibliographicItemText(ExtensionField, TextField):
     """TextField containing a tabel of contents"""
@@ -17,7 +17,7 @@ class BibliographicItemExtender(object):
     adapts(IBibliographicItem)
     implements(ISchemaExtender, IBrowserLayerAwareExtender)
 
-    layer = IBrowserLayer
+    layer = IBibLayer
     
     fields = [
         BibliographicItemText(

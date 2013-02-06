@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.2.2
+-----
+- added IBibLayer BrowserLayer for schemaextensions
+- locales
+
+
 0.2.1
 -----
 - added to own svn
