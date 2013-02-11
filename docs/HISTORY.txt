@@ -4,6 +4,7 @@ Changelog
 0.2.3
 -----
 - removed description of table of contents schemaextension field
+- added (Default) workflow to content types
 
 0.2.2
 -----
