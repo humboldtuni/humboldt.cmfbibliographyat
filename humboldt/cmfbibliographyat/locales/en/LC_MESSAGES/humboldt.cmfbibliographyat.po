@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: humboldt.cmfbibliographyat\n"
-"POT-Creation-Date: 2013-02-06 17:08+0000\n"
+"POT-Creation-Date: 2013-02-11 14:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: CMS HU Berlin <plone@cms.hu-berlin.de>\n"
 "Language-Team: CMS HU Berlin <plone@cms.hu-berlin.de>\n"
@@ -17,10 +17,6 @@ msgstr ""
 #: humboldt.cmfbibliographyat/humboldt/cmfbibliographyat/bibliographicitemextensions.py:34
 msgid "Table of contents"
 msgstr "Table of contents"
-
-#: humboldt.cmfbibliographyat/humboldt/cmfbibliographyat/bibliographicitemextensions.py:35
-msgid "The table of contents should be listed here."
-msgstr "The table of contents should be listed here."
 
 #: humboldt.cmfbibliographyat/humboldt/cmfbibliographyat/browser/bibliography_entry_view.pt:26
 msgid "toc_head"

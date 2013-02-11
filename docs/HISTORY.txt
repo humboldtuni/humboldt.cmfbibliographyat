@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.2.3
+-----
+- removed description of table of contents schemaextension field
+
 0.2.2
 -----
 - added IBibLayer BrowserLayer for schemaextensions

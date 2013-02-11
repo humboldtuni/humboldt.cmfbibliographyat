@@ -32,7 +32,6 @@ class BibliographicItemExtender(object):
                                          'text/plain',),
                 widget=RichWidget(
                     label=_(u"Table of contents"),
-                    description=_(u"The table of contents should be listed here."),
            ),
         ),
     ]
