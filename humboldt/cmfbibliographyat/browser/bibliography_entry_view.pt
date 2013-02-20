@@ -23,8 +23,12 @@
     
         <div tal:replace="structure provider:plone.belowcontentbody" />
 
-        <label i18n:domain="humboldt.cmfbibliographyat" i18n:translate="toc_head"></label>
-        <div tal:content="structure context/table_of_contents" />
+        <div tal:define="toc context/table_of_contents|nothing"
+             tal:condition="toc">
+          <label i18n:domain="humboldt.cmfbibliographyat" i18n:translate="toc_head"></label>
+          <div tal:content="structure toc" />
+        </div>
+        
     </tal:main-macro>
 
 </metal:main>

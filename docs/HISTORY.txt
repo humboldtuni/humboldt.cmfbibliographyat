@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.2.4
+-----
+- fixed pagetemplate for bibentry_view when no toc where set + improved representation
+- fixed skin registration: now humboldt.theme stays undamaged
+
 0.2.3
 -----
 - removed description of table of contents schemaextension field
