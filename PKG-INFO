@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: humboldt.cmfbibliographyat
-Version: 0.2.2
+Version: 0.2.4
 Summary: Humboldt University CMFBibliographyAT extensions
 Home-page: http://pypi.python.org/pypi/humboldt.cmfbibliographyat
 Author: Andreas Jung
@@ -90,6 +90,16 @@ Description: humboldt.cmfbibliographyat
         
         Changelog
         =========
+        
+        0.2.4
+        -----
+        - fixed pagetemplate for bibentry_view when no toc where set + improved representation
+        - fixed skin registration: now humboldt.theme stays undamaged
+        
+        0.2.3
+        -----
+        - removed description of table of contents schemaextension field
+        - added (Default) workflow to content types
         
         0.2.2
         -----
