@@ -1,6 +1,6 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: humboldt.cmfbibliographyat
-Version: 0.2.4
+Version: 0.2.5.1
 Summary: Humboldt University CMFBibliographyAT extensions
 Home-page: http://pypi.python.org/pypi/humboldt.cmfbibliographyat
 Author: Andreas Jung
@@ -91,6 +91,11 @@ Description: humboldt.cmfbibliographyat
         Changelog
         =========
         
+        0.2.5
+        -----
+        - fixed actionicons from Products.CMFBibliographyAT
+        - added dependencies to Products.CMFBibliographyAT
+        
         0.2.4
         -----
         - fixed pagetemplate for bibentry_view when no toc where set + improved representation
@@ -106,7 +111,6 @@ Description: humboldt.cmfbibliographyat
         - added IBibLayer BrowserLayer for schemaextensions
         - locales
         
-        
         0.2.1
         -----
         - added to own svn
@@ -120,7 +124,6 @@ Description: humboldt.cmfbibliographyat
         --------------------
         - changed query string generation for OpenURL
         
-        
         0.1.6 (2010-01-25)
         ------------------
         - changed meta resolver URL 
@@ -130,19 +133,16 @@ Description: humboldt.cmfbibliographyat
         - added UI for feed URL generation
         - changed URL for 'Feed' action to @@feeds
         
-        
         0.1.4 (2009-16-17)
         ------------------
         - improved feed integration and parameter handling
         - (optional integration with Products.ATBiblioStyles (on the syndication
           level)
         
-        
         0.1.3 (2009-16-12)
         ------------------
         - BibReferenceEntry adapter now respects a custom request parameter 'detail_view'
           providing additional information about bibliographic items.
-        
         
         0.1.2 (2009-16-12)
         ------------------
