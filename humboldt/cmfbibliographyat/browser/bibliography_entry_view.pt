@@ -16,10 +16,6 @@
          <div metal:use-macro="here/bibliography_entry_macros/macros/bibliography_entry_camefrom">
           Show where we came from
         </div>
-
-         <div metal:use-macro="here/document_relateditems/macros/relatedItems">
-            show related items if they exist
-        </div>
     
         <div tal:replace="structure provider:plone.belowcontentbody" />
 
